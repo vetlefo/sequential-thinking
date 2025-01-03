@@ -1,0 +1,20 @@
+# SSH Keys
+asdf
+asdf.pub
+
+# Dependencies
+node_modules/
+
+# Build output
+build/
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
