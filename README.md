@@ -44,21 +44,6 @@ npm run build
 
 ### Configuration
 
-#### Cline Configuration
-
-To use this server with Cline, add the following to your Cline MCP settings file (located at `%APPDATA%/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json` on Windows or `~/Library/Application Support/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json` on macOS):
-
-```json
-{
-  "mcpServers": {
-    "sequential-thinking": {
-      "command": "node",
-      "args": ["path/to/sequential-thinking/build/index.js"]
-    }
-  }
-}
-```
-
 #### Claude Desktop Configuration
 
 To use this server with Claude Desktop, add the following to your Claude configuration file (located at `%APPDATA%/Claude/claude_desktop_config.json` on Windows or `~/Library/Application Support/Claude/claude_desktop_config.json` on macOS):
