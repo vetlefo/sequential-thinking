@@ -1,0 +1,19 @@
+{
+  "name": "sequential-thinking",
+  "version": "1.0.0",
+  "description": "MCP server for sequential thinking and problem-solving",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "start": "node build/index.js"
+  },
+  "keywords": ["mcp", "sequential-thinking"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^0.3.1",
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  }
+}
